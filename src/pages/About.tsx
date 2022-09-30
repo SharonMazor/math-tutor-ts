@@ -1,0 +1,45 @@
+import React from "react";
+
+import aboutImg from "../images/about.svg"; //  צריך ללמוד להמיר SVG בTS
+import "./About.css";
+
+const About: React.FC = () => {
+  return (
+    <section className='section'>
+      <div>
+        <img src={aboutImg} className='img' alt="" />
+      </div>
+      <div className='div-left'>
+        <h1 className='h1'>שרון מזור </h1>
+        <p className='p'>
+          כאן יהיה הסבר של מה שאתה מציע בתור מורה משהו בסגנון של כמה זמן לשיעור,
+          מה סוג המבנה של שיעור, עלויות, קבוצת וואטסאפ וכו זה יהיה פסקה אחת מלאה
+          של טקסט שיכולה להיות מלווה גם ברשימה 
+          <br />
+          <br />
+          lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+          <br />
+          <br />
+           כאן יהיה הסבר של מה שאתה מציע בתור מורה משהו בסגנון
+          של כמה זמן לשיעור, מה סוג המבנה של שיעור, עלויות, קבוצת וואטסאפ וכו זה
+          יהיה פסקה אחת מלאה של טקסט שיכולה להיות מלווה גם ברשימה
+        </p>
+      </div>
+    </section>
+  );
+};
+
+export default About;

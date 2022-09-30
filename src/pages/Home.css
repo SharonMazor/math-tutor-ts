@@ -1,0 +1,26 @@
+.section {
+  display: flex;
+}
+
+.h1 {
+  color: #e85a4f;
+  padding-top: 50px;
+  padding-right: 30px;
+  width: 600px;
+  height: 78px;
+  font-size: 50px;
+}
+
+.p {
+  padding-right: 30px;
+  width: 600px;
+  height: 120px;
+}
+
+.img {
+  width: 800px;
+  height: 489px;
+  padding-right: 300px;
+  padding-top: 300px
+
+}

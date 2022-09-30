@@ -1,0 +1,28 @@
+.section {
+    display: flex;
+  }
+  
+  .div-left {
+        padding-right: 200px;
+        width: 800px;
+  }
+
+  .h1 {
+    color: #e85a4f;
+    width: 600px;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .p {
+   font-size: 20px;
+  }
+  
+  .img {
+    width: 800px;
+    height: 489px;
+    padding-right: 50px;
+    padding-top: 75px
+  
+  }
