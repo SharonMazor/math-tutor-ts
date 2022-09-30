@@ -11,7 +11,7 @@ const App: React.FC = () => {
     <React.Fragment>
       <NavBar />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/hoame" element={<Home />} />
         <Route path="" element={<Navigate to="/home" />} />
         <Route path="/about" element={<About />} />
         <Route path="/schedule" element={<Schedule />} />
